@@ -1,6 +1,6 @@
 # Instructions: Place your core Terraform Module configuration below
 module "module-aws-tf-cicd" {
-  source = "../modules/module-aws-tf-cicd"
+  source = "./modules/module-aws-tf-cicd"
 
   # - Create S3 Remote State Resources -
   tf_remote_state_resource_configs = {
